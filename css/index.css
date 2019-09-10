@@ -439,9 +439,12 @@ footer {
     .contact {
         flex-direction: column;
         padding: 3%;
+        width: 100%;
+  
     }
     .address {
         margin-top: 10px;
+        width: 100%;
         
 
 
