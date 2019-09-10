@@ -374,7 +374,78 @@ footer {
 
 
 /***** Mobile *******/
+
 @media screen and (max-width: 500px) {
-        body {
-        }   
+    header {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        width: 100%
+    }
+    header nav {
+        
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        align-content: space-between;
+        margin-bottom: 3%;
+    }
+    #services {
+        border-top: 1px solid gray;
+    }
+    
+    header nav a {
+        display: flex;
+        justify-content:center;
+        align-content: space-between;
+        border-bottom: 1px solid gray;
+        padding: 3%;
+        width: 75%;
+        margin: 0;
+        
+    }
+    header .logo800 {
+        
+        display: flex;
+        justify-content: center;
+        margin: auto; 
+    }
+    header .logo {
+        display: none;
+    }
+    .cta {
+        display: flex;
+        
+        margin: 0;
+    }
+    .cta .cta-text {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin: 0;
+    }
+    .top-content {
+        flex-direction: column;
+    }
+    .bottom-content {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .text-content h4 {
+        justify-content: flex-start;
+        align-items: flex-start;
+        width: 100%;
+    }
+    .contact {
+        flex-direction: column;
+        padding: 3%;
+    }
+    .address {
+        margin-top: 10px;
+        
+
+
+    }
+    
+    }
     }
